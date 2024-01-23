@@ -24,35 +24,31 @@
 <body class="font-manrope">
     <!-- header section  -->
     <header class="lg:mx-20">
-        <div class="navbar bg-base-100 mt-6 ">
+        <div class="navbar">
             <div class="navbar-start">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                    </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li class=" font-manrope text-[#FF4240] font-bold"><a>Home</a></li>
-                        <li class="text-[#424247] font-manrope font-bold"><a>About</a></li>
-                        <li class="text-[#424247] font-manrope font-bold"><a>Pages</a></li>
-                        <li class="text-[#424247] font-manrope font-bold"><a>Blog</a></li>
-                        <li class="text-[#424247] font-manrope font-bold"><a>Contact</a></li>
-                    </ul>
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
-                <h1 class="font-manrope font-bold text-3xl">Hockey <span class="text-[#FF4240]">’</span> s</h1>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a><span class="text-[#FF4240]">Home</span></a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <h1 class=" text-xl font-bold">Hockey <span class="text-[#FF4240]">’
+              </span>s</h1>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li class="text-[#FF4240] font-manrope font-bold"><a>Home</a></li>
-                    <li class="text-[#424247] font-manrope font-bold"><a>About</a></li>
-                    <li class="text-[#424247] font-manrope font-bold"><a>Pages</a></li>
-                    <li class="text-[#424247] font-manrope font-bold"><a>Blog</a></li>
-                    <li class="text-[#424247] font-manrope font-bold"><a>Contact</a></li>
-                </ul>
+              <ul class="menu menu-horizontal px-1">
+                <li><a><span class="text-[#FF4240]">Home</span></a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+              </ul>
             </div>
             <div class="navbar-end">
                 <svg xmlns="http://www.w3.org/2000/svg" class="text-[#89898B] h-5 w-6 mr-4" fill="none"
@@ -60,9 +56,9 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
-                <a class="btn  text-white bg-[#FF4240]">Get Ticket</a>
+              <a class="btn text-white bg-[#FF4240]">Get Ticket</a>
             </div>
-        </div>
+          </div>
 
         <!-- banner section  -->
         <div class="carousel  w-full  ">
@@ -83,7 +79,7 @@
 
 
             </div>
-            <div id="slide2" class="carousel-item relative w-full">
+            <div id="slide2" class="carousel-item lg:relative w-full">
                 <img src="./Images/sl2.jpg" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a>
@@ -92,7 +88,7 @@
 
 
                 </div>
-                <div class=" lg:absolute left-96  top-3/4  p-8  bg-black rounded-lg ">
+                <div class=" lg:absolute lg:left-96  top-3/4  lg:p-8  bg-black rounded-lg ">
                     <h3 class="font-manrope text-white font-bold text-2xl pb-2">Meet all the heroes from the field</h3>
                     <p class="w-3.5/4 text-[#FFFFFF99]font-manrope">Dit amet consectetur. Condimentum dignissim
                         adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
@@ -107,7 +103,7 @@
 
 
     </header>
-    <!-- main section  -->
+     <!-- main section  -->
     <main>
         <section class="mx-auto">
             <div class="mt-10 ">
@@ -567,6 +563,17 @@
             </div>
 
         </section>
+        <div class="m-9 lg:mx-32 mt-10 rounded-lg bg-[#13131808]">
+        <h4 class="text-xl font-bold text-center pt-12">Social Media</h4>
+        <div class="grid justify-center pt-8 pb-8">
+            <img src="./Images/Social.png" alt="">
+        </div>
+    </div>
+
+
+        <section>
+
+        </section>
 
 
 
@@ -578,9 +585,43 @@
 
     </main>
     <!-- footer section  -->
-    <footer>
+    <footer class="footer p-10 bg-[#131318] text-base-content">
+        <div>
+            <h1 class="text-white text-2xl font-bold">Get In Touch</h1>
+            <p class="text-white w-[340px]">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            
+                <div class="flex gap-2">
+                    <img src="./Images/Frame (6).png" alt="">
+                    <h4 class="text-white">hockeys@support.com</h4>
+                </div>
+                <div class="flex">
+                    <img src="./Images/Frame (5).png" alt="">
+                    <h4 class="text-white">(+62) 123-321-543</h4>
+                </div>
+            
 
-    </footer>
+        </div> 
+        <div>
+          <header class="footer-title">Services</header> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </div> 
+        <div>
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </div> 
+        <div>
+          <header class="footer-title">Legal</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </div>
+      </footer>
 
 </body>
 
